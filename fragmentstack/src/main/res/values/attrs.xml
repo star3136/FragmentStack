@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FragmentTheme">
+        <attr name="exit_fragment_anim" format="reference" />
+        <attr name="enter_fragment_anim" format="reference" />
+        <attr name="pop_exit_fragment_anim" format="reference" />
+        <attr name="pop_enter_fragment_anim" format="reference" />
+    </declare-styleable>
+</resources>

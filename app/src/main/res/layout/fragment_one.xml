@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment1" />
+        <Button
+            android:id="@+id/change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改MainFragment"/>
+        <Button
+            android:id="@+id/btn_launch_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试启动模式"/>
+        <Button
+            android:id="@+id/btn_for_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试startFragmentForResult"/>
+    </LinearLayout>
+</layout>

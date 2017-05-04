@@ -1,0 +1,8 @@
+<resources>
+    <style name="BaseFragmentTheme">
+        <item name="exit_fragment_anim">@anim/default_fragment_left_out</item>
+        <item name="enter_fragment_anim">@anim/default_fragment_right_in</item>
+        <item name="pop_exit_fragment_anim">@anim/default_fragment_right_out</item>
+        <item name="pop_enter_fragment_anim">@anim/default_fragment_left_in</item>
+    </style>
+</resources>
